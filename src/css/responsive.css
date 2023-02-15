@@ -1,0 +1,37 @@
+@media(max-width: 850px) {
+    body {
+        min-width: 420px;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+
+    .logo h1 {
+        font-size: 4rem;
+    }
+
+    .barra-menu {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .barra-menu li {
+        padding: 33px 0;
+    }
+
+    .barra-menu li:last-child {
+        margin-top: 10px;
+    }
+
+    .barra-menu li a {
+        font-size: 4rem;
+        padding: 17px 40px;
+    }
+
+    .barra-menu li a.btn {
+        font-size: 1.8rem;
+        padding: 15px 23px;
+        margin-top: 20px;
+    }
+}

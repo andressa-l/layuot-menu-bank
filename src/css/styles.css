@@ -1,0 +1,54 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    background-color: rgb(233, 250, 249);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    margin-left: 5px;
+}
+
+.barra-menu {
+    display: flex;
+    align-items: center;
+}
+
+.barra-menu li a {
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+}
+
+.barra-menu li a:hover {
+    background-color: #5BC241;
+    color: hsla(0, 0%, 100%, 1);
+}
+
+.barra-menu a.btn {
+    background: hsla(108, 51%, 51%, 1);
+    border-radius: 1rem;
+    margin-left: 2rem;
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, 1);
+    padding: 10px 20px;
+}
+
